@@ -1,5 +1,7 @@
 # Employee Tracker Application
 
+![GitHub License](https://img.shields.io/badge/made%20by-%40alexbachicha-orange)
+
 ## Description 
 
 The Employee Tracker is a command-line application that allows for the management of a company's employees. It is designed with a Content Management System that makes it easier for non-developers to view and iteract with the information stored in the database. At minimum, it allows the user to add departments, roles and employees, view departments, roles and employees, and update employee roles. This application uses Node, Inquirer and MySQL.
@@ -7,7 +9,7 @@ The Employee Tracker is a command-line application that allows for the managemen
 ## Table of Contents
 
 - [Installation](#Installation)
-- [UserStory](#User Story)
+- [User Story](#UserStory)
 - [Usage](#Usage)
 - [Licence](#Licence)
 
@@ -23,12 +25,15 @@ So that I can organize and plan my business
 
 To begin, initialize dependencies by running:
 
+```
 npm i 
+```
 
 The application is invoked with the following line of code:
 
+```
 node app.js
-
+```
 
 ## Instructions and Demo
 
@@ -58,4 +63,3 @@ The employee database schema contains the following tables:
 ## License 
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-![GitHub License](https://img.shields.io/badge/made%20by-%40alexbachicha-orange)
