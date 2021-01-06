@@ -65,6 +65,8 @@ node app.js
 
 ## Demo
 
+![Gif](assets/demo.gif)
+
 ![Demo](assets/screenshot.png)
 
 ![Schema](assets/schema.png)
