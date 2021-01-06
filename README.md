@@ -65,7 +65,7 @@ node app.js
 
 ## Demo
 
-![DemoImg](assets/screenshot.png)
+![Demo](assets/screenshot.png)
 
 ![Schema](assets/schema.png)
 
