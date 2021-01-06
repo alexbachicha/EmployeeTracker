@@ -2,6 +2,7 @@
 
 ![GitHub License](https://img.shields.io/badge/made%20by-%40alexbachicha-orange)
 ![CommitHistory](https://img.shields.io/github/last-commit/alexbachicha/EmployeeTracker)
+![Language](https://img.shields.io/github/languages/top/alexbachicha/EmployeeTracker)
 
 ## Description 
 
@@ -77,5 +78,7 @@ node app.js
 ## Repository
 
 - [GitHub Profile](https://github.com/alexbachicha)
+
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/alexbachicha)
-[Follow](https://img.shields.io/github/followers/alexbachicha?label=Follow&style=social)
+
+[Follow](https://img.shields.io/github/followers/alexbachicha?style=social)
