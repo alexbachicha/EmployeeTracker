@@ -8,10 +8,13 @@ The Employee Tracker is a command-line application that allows for the managemen
 
 ## Table of Contents
 
-- [Installation](#Installation)
 - [User Story](#UserStory)
-- [Usage](#Usage)
+- [Installation](#Installation)
+- [Instructions](#Instructions)
+- [Features](#Features)
+- [Demo](#Demo)
 - [Licence](#Licence)
+- [Repository](#Repository)
 
 ## User Story
 
@@ -23,11 +26,19 @@ So that I can organize and plan my business
 
 ## Installation 
 
-To begin, initialize dependencies by running:
+To begin, initialize dependencies. Use the MySQL NPM package to connect to your MySQL database to perform queries then, use the Inquirer NPM package to interact with the user via the command line:
 
 ```
-npm i 
+npm install mysql inquirer 
 ```
+
+Use console.table to print MySQL rows to the console:
+
+```
+npm install console.table --save
+```
+
+## Instructions
 
 The application is invoked with the following line of code:
 
@@ -35,29 +46,28 @@ The application is invoked with the following line of code:
 node app.js
 ```
 
-## Instructions and Demo
+## Features
 
-The employee database schema contains the following tables:
+- View All Employees
+- View All Employees by Department
+- View All Employees by Manager
+- Add Employee
+- Remove Employee
+- Update Employee Role
+- Update Employee Manager
+- View All Roles
+- Add Role
+- Remove Role
+- View All Departments
+- Add Department
+- Remove Department 
+- Quit (the application)
 
-* **department**:
+## Demo
 
-  * **id** - INT PRIMARY KEY
-  * **name** - VARCHAR(30) to hold department name
+![DemoImg](/assets/screenshot.png)
 
-* **role**:
-
-  * **id** - INT PRIMARY KEY
-  * **title** -  VARCHAR(30) to hold role title
-  * **salary** -  DECIMAL to hold role salary
-  * **department_id** -  INT to hold reference to department role belongs to
-
-* **employee**:
-
-  * **id** - INT PRIMARY KEY
-  * **first_name** - VARCHAR(30) to hold employee first name
-  * **last_name** - VARCHAR(30) to hold employee last name
-  * **role_id** - INT to hold reference to role employee has
-  * **manager_id** - INT to hold reference to another employee that manages the employee being Created. This field may be null if the employee has no manager
+![Schema](/assets/schema.png)
 
 
 ## License 
