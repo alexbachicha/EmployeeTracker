@@ -1,5 +1,6 @@
 # Employee Tracker Application
 
+![GitHub License](https://img.shields.io/badge/made%20by-%40alexbachicha-orange)
 ![CommitHistory](https://img.shields.io/github/last-commit/alexbachicha/EmployeeTracker)
 
 ## Description 
@@ -74,7 +75,5 @@ node app.js
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Repository
-
-![GitHub License](https://img.shields.io/badge/made%20by-%40alexbachicha-orange)
 
 - [GitHub Profile](https://github.com/alexbachicha)
