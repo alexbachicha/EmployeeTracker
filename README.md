@@ -65,9 +65,9 @@ node app.js
 
 ## Demo
 
-![DemoImg](/assets/screenshot.png)
+![DemoImg](assets/screenshot.png)
 
-![Schema](/assets/schema.png)
+![Schema](assets/schema.png)
 
 
 ## License 
